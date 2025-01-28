@@ -13,7 +13,7 @@ def main():
         if letter.isalpha():
             print(f"The '{letter}' character was found {letters[letter]} times")
     print("--- End report ---")
-    
+
 
 def count_words(text):
     words = text.split()
@@ -29,6 +29,7 @@ def count_letters(text):
         else:
             letters[letter.lower()] = 1
     return letters
+
 
 
 
